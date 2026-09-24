@@ -69,6 +69,9 @@ int main() {
                 std::println("error");
                 break;
         }
+        if (troll <=0) {
+            break;
+        }
         int tdegats = calculer_degats(11,4);
         switch (lancer_de(10)) {
             case 1:
@@ -123,7 +126,9 @@ int main() {
             default :
                 std::println("error");
         }
-
+        if (orc <=0) {
+            break;
+        }
     }
     return 0;
 }
