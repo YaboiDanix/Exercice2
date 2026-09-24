@@ -70,6 +70,7 @@ int main() {
                 break;
         }
         if (troll <=0) {
+            std::println("l'orc gagne en {} tours",t);
             break;
         }
         int tdegats = calculer_degats(11,4);
@@ -127,8 +128,10 @@ int main() {
                 std::println("error");
         }
         if (orc <=0) {
+            std::println("le troll gagne en {} tours",t);
             break;
         }
     }
+
     return 0;
 }
